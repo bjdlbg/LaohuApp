@@ -1,4 +1,4 @@
-package com.example.a84640.laohuapp;
+package com.example.a84640.laohuapp.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.a84640.laohuapp.R;
 
 /**
  * 老胡试验app
@@ -94,11 +96,17 @@ public class LaohuActivity extends AppCompatActivity {
                 return true;
             case R.id.other:
                 showToast();
+                //androidPDFactivity();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
+
+//    private void androidPDFactivity() {
+//        Intent intent=new Intent(this,RawPDFActivity.class);
+//        startActivity(intent);
+//    }
 
     private void showPDFactivity() {
         Intent intent=new Intent(this,PDFActivity.class);

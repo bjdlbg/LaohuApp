@@ -1,4 +1,4 @@
-package com.example.a84640.laohuapp;
+package com.example.a84640.laohuapp.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.a84640.laohuapp.R;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.PageSize;
@@ -63,6 +64,9 @@ public class PDFActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * 对中文支持不好
+     * */
     public boolean createPDF(String s){
         String h1="这是第一段话的标题";
         String h2="this is the title for the second p";

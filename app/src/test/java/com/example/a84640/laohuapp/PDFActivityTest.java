@@ -1,9 +1,9 @@
 package com.example.a84640.laohuapp;
 
+import com.example.a84640.laohuapp.activity.PDFActivity;
+
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * @author: J.xiang

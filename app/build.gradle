@@ -27,4 +27,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //pdf
     implementation 'com.itextpdf:itextg:5.5.10'
+    //apw for PDF(轻量级)
+    //compile project(':apwlibrary')
 }
